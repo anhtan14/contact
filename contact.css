@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --big-width: 74.54%;
+    --small-width: 10%;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background-color: #232525;
+    color: #AAAAAA;
+    display: flex;
+}
+.header a{
+    color:  #E5E5E5;
+    text-decoration: none;
+}
+.header a:hover{
+    opacity: 0.7;
+}
+.header-menu1 ul{
+    list-style: none;
+    margin-left: 20px;
+    width: 80%;
+}
+.header-menu1 li{
+    display: inline;
+    padding-top: 25px ;
+
+}
+#last{
+    width: 220px;
+}
+.header-menu1 li+li{
+    margin-left: 40px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.location   {
+    padding-top: 26px;
+    font-size: small;
+    opacity: 0.8;
+
+}
+.fa-solid{
+    color: whitesmoke;
+}
+.fa-location-dot{
+    padding-right: 1em;
+}
+.fa-magnifying-glass{
+    font-size: 1.3em;
+    margin-left: 1.5em;
+}
+.contact{
+    width: 100%;
+}
+.bloglist-header{
+    display: flex;
+    background-color: #F7F6F4;
+    justify-content: space-between;
+    height: 3.5em;
+    align-items: center;
+}
+.bloglist-header-title{
+    margin-left: 2.5em;
+    color: #232525;
+}
+.bloglist-header-more{
+    margin-right: 2.5em;
+}
+.bloglist-header-more a{
+    color:#232525;
+}
+.bloglist-header-more a:hover{
+    opacity: .6;
+}
+.map{
+    width: 100%;
+}
+.map img{
+    width: 100%;
+    height: auto;
+}
+.box-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: .7%;
+}
+.line-after-red::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    background-color: #ec4030;
+    left: 0;
+    bottom: 0;
+}
+.contact-content{
+    display: flex;
+    padding: 2% 2.5% 4% 2.5%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.stayintouch{
+    width: 30%;
+}
+#stayintouch-content{
+    opacity: 0.7;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    line-height: 160%;
+}
+.stayintouch .fa-solid{
+    color: #232525;
+    margin-right: 3%;
+}
+.stayintouch-phone p{
+    display: inline;
+    opacity: .7;
+}
+.stayintouch-mail p{
+    display: inline;
+    opacity: .7;
+}
+
+.stayintouch-phone{
+    padding-bottom: 4%;
+}
+.address{
+    width: 35%;
+}
+.address-title{
+    margin-bottom: 5%;
+}
+.add-detail{
+    padding-bottom: 2%;
+    width: 60%;
+}
+.add-detail-content{
+    display: inline;
+    opacity: .7;
+}
+.add-detail .fa-solid{
+    color: #232525;
+}
+.mail-title{
+    margin-bottom: 5%;
+}
+.mail{
+    width: 30%;
+}
+.mail input{
+    width: 90%;
+    height: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 1.8%;
+    border: 2px solid gainsboro;
+}
+#big-input{
+    height: 40%;
+}
+.mail button{
+    display: block;
+    border: none;
+    width: 30%;
+    height: 20%;
+    color: whitesmoke;
+    background-color: #ec4030;
+    border-radius: 4%;
+    cursor: pointer;
+}
+.footer-top{
+    display: flex;
+}
+.top-left{
+    background-color: #E84C3D;
+    padding: 2%;
+    color: #F7F6F4;
+    width: var(--big-width);
+}
+.top-left .fa-twitter{
+    font-size: 2rem;
+    color: #F7F6F4;
+    padding-right: 1rem;
+}
+.top-left a{
+    color: #232525;    
+}
+.top-left a:hover{
+    color: #E5E5E5;
+}
+.top-right{
+    width: 25.5%;
+    background-color: #DB4739   ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2.1%;
+    color: #F7F6F4;
+}
+.top-right input{
+    padding: .5rem;
+    margin-left: 5%;
+}
+.top-right .fa-magnifying-glass{
+    color: #DB4739;
+    position: relative;
+    left: -17%;
+    top: 8%;
+}
+.footer-bottom{
+    display: flex;
+}
+.bottom-left{
+    background-color: #232525;
+    width: var(--big-width);
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.bottom-left-l{
+    width: 70%;
+}
+.bottom-left-l a{
+    margin-right: 2%;
+    color: #E5E5E5;
+}
+.bottom-left-l a:hover{
+    opacity: .5;
+}
+.bottom-left-r{
+    width: 15%;
+}
+.bottom-left-r a{
+    margin-right: 8%;
+    font-size: 1.1rem;
+    color: #E5E5E5;
+}
+.bottom-left-r a:hover{
+    opacity: .5;
+}
+.bottom-right{
+    width: 25.5%;
+    padding: 2%;
+    padding-left: 6%;
+    background-color: #161818;
+    color: #E5E5E5;
+}
